@@ -27,7 +27,11 @@
 `Body`용 글꼴입니다. 깔끔하고 세련된 글꼴로 평문 작성할 때 사용하기 좋습니다.
 - [공식 다운로드](https://cactus.tistory.com/306)
 
+### 6. KoPubWorld
+공식 문서용 글꼴입니다. 바탕체, 돋움체 모두 있고 보고서에 사용하기 좋습니다.
+- [공식 다운로드](https://www.kopus.org/biz-electronic-font2/)
+
 ## References
-- [글꼴 타입](https://obsidian.junbeom.work/00-inbox/fonts)
-- [글꼴 타입 변경](https://obsidian.junbeom.work/00-inbox/fonttools)
+- [글꼴 타입](https://wiki.junbeom.work/00-inbox/fonts)
+- [글꼴 타입 변경](https://wiki.junbeom.work/00-inbox/fonttools)
 
