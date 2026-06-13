@@ -1,0 +1,13 @@
+[workspace]
+authors = ["junbeom-cho <dev.junbeom@gmail.com>"]
+channels = ["conda-forge"]
+name = "fonts"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+fonttools = ">=4.63.0,<5"
+brotli-python = ">=1.2.0,<2"
