@@ -1,0 +1,14 @@
+[tools]
+python = "3.14"
+uv = "latest"
+"pypi:fonttools" = { version = "latest", extras = "woff" }
+
+[tasks.woff2]
+description = "<dir>/ttf/*.ttf → <dir>/woff2/*.woff2 변환"
+usage = 'arg "<dir>" help="폰트 폴더 (예: D2Coding)"'
+run = '''
+mkdir -p "$usage_dir/woff2"
+for f in "$usage_dir"/ttf/*.ttf; do
+  fonttools ttLib.woff2 compress -o "$usage_dir/woff2/$(basename "${f%.ttf}").woff2" "$f"
+done
+'''

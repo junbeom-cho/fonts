@@ -1,5 +1,2 @@
-# pixi environments
-.pixi/*
-!.pixi/config.toml
 .DS_Store
 desktop.ini
